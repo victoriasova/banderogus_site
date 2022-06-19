@@ -1,0 +1,308 @@
+html,
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+
+.main-page {
+    background: linear-gradient(270deg, #A5DEFF 2.41%, #FCFEFF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 58px;
+    margin-top: 34px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.logo-text {
+    margin-left: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #010101;
+}
+
+.white-box-container {
+    background-color: #fff;
+    padding: 60px 56px;
+    height: 400px;
+    width: 574px;
+    align-self: center;
+}
+
+.greeting {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-bottom: 16px;
+}
+
+.orange-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+
+.bandergus-accent {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #1E1E22;
+    margin-bottom: 24px;
+}
+
+.white-box-main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-bottom: 48px;
+}
+
+.banderogus-launch {
+    padding: 12px 24px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+}
+
+.banderogus-image {
+    align-self: flex-end;
+}
+
+.gus-facts {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1E1E22;
+    margin: 16px 0;
+}
+
+.facts-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    width: 875px;
+    text-align: center;
+}
+
+.gus-facts-container {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    
+}
+
+.gus-fact-item {
+    width: 30%;
+
+}
+
+.gus-fact-img {
+    margin: 32px 0 12px 0;
+
+}
+
+.gus-fact-h {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-bottom: 32px;
+    margin-left: 50px;
+}
+
+.fact-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-bottom: 48px;
+    width: 270px;
+    margin-left: 50px;
+}
+
+.footer {
+    display: flex;   
+    justify-content: center;
+}
+
+.background {
+    background: linear-gradient(270deg, #A5DEFF 2.41%, #FCFEFF 100%);
+    width: 1170px;
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1E1E22;
+    margin: 16px 0;
+}
+
+.victory-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    width: 875px;
+    text-align: center;
+}
+
+.modal-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(30 30 34 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form-container {
+    background-color: #fff;
+    padding: 32px 92px 60px 92px;
+    position: relative;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modal-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.modal-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-bottom: 24px;
+}
+
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-field-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    margin-bottom: 8px;
+}
+
+.modal-field-input {
+    width: 374px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #1066BF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E22;
+    padding: 4px 12px;
+}
+
+.modal-form-btn {
+    padding: 12px 24px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    font-size: 24px;
+    color: #1E1E22;
+    cursor: pointer;
+    border: 0;
+    background: 0;
+}
+
+.orange-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 0;
+
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
